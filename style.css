@@ -24,7 +24,7 @@ body {
 
 .container {
     background-image: linear-gradient(to right, #01022de5 , #01022de5), 
-    url(wallpaperflare.com_wallpaper\ \(120\).jpg);
+    url(images/bulb.jpg);
     width: 90%;
     height: 640px;
     background-position: center;
@@ -32,7 +32,7 @@ body {
 
 .container:hover {
     background-image: linear-gradient(to right, #01022de5 , transparent, #01022de5),
-    url(wallpaperflare.com_wallpaper\ \(120\).jpg);
+    url(images/bulb.jpg);
     transition: 3s;
 }
 
