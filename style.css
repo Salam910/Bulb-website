@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient( #01022d, #01022de5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: linear-gradient(to right, #01022de5 , #01022de5), 
+    url(wallpaperflare.com_wallpaper\ \(120\).jpg);
+    width: 90%;
+    height: 640px;
+    background-position: center;
+}
+
+.container:hover {
+    background-image: linear-gradient(to right, #01022de5 , transparent, #01022de5),
+    url(wallpaperflare.com_wallpaper\ \(120\).jpg);
+    transition: 3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 2s;
+}
+
+.logo:hover {
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 44%;
+}
+
+ul li {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+ul a {
+    transition: 1.5s;
+}
+
+
+
+
+ul a:hover {
+    border-bottom-color: white;
+    font-size: 20px;
+}
+
+
+.content {
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 50px;
+    transition: 2s;
+}
+
+.content h2:hover {
+    font-size: 55px;
+}
+
+.content p {
+    width: 350px;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    transition: 2s;
+}
+
+.content p:hover {
+    font-size: 20px;
+    transform: scale(1.0);
+}
+
+.content button {
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+
+.content button:active {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .logo {
+        font-size: 20px;
+        padding: 8px;
+    }
+    
+    .logo:hover {
+        font-size: 25px;
+    }
+
+    ul {
+        width: 65%;
+    }
+
+    ul a {
+        font-size: 70%;
+    }
+
+    ul a:hover {
+        font-size: 15px;
+    }
+
+    .content {
+        width: 50%;
+        margin-top: 175px;
+        padding: 30px;
+    }
+    
+    .content h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .content h2:hover {
+        font-size: 40px;
+    }
+    
+    .content p {
+        width: 200px;
+        padding: 10px 0;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    
+    .content p:hover {
+        font-size: 16px;
+    }
+    
+    .content button {
+        font-size: 13px;
+    }
+}
